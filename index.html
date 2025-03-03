@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <canvas class="particles"></canvas>
+    
+    <div class="container">
+        <div class="time-display">
+            <span class="digit" id="minutes">00</span>:
+            <span class="digit" id="seconds">00</span>:
+            <span class="digit" id="milliseconds">00</span>
+        </div>
+        
+        <div class="controls">
+            <button class="btn" id="startStop">Start</button>
+            <button class="btn" id="lap">Lap</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+        
+        <div class="lap-list" id="lapList"></div>
+    </div>
+
+    <footer>
+        <p><strong>Developed by Syed Haider Abbas Zaidi</strong></p>
+        <div class="social-icons">
+            <a href="https://github.com/haider14-9abbaas" target="_blank" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/syed-haider-abbas-zaidi-132525215/" target="_blank" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
