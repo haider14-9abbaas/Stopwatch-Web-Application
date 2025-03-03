@@ -55,10 +55,6 @@ The stopwatch application is compatible with all modern web browsers, including:
 
 ## Developer
 
-Developed by **Hamza Kamran**  
+Developed by **Syed Haider Abbas Zaidi**  
 - [GitHub](https://github.com/haider14-9abbaas)
 - [LinkedIn](https://www.linkedin.com/in/syed-haider-abbas-zaidi-132525215/)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](./Syed Haider Abbas Zaidi) file for details.
